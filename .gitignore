@@ -1,0 +1,7 @@
+sheetsVariables.py
+helpers/keys.json
+__pycache__
+package-lock.json
+package.json
+helpers/__pycache__
+node_modules

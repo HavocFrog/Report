@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+    
+</head>
+<body>
+    <div class="chart1">
+        <p id="hidden1">{{data[0]}}</p>
+        <canvas id="myChart1" style="border:1px solid"></canvas>
+    </div>
+    <div class="chart2">
+        <p id="hidden2">{{data[1]}}</p>
+        <canvas id="myChart2" style="border:1px solid"></canvas>
+    </div>
+    <div class="chart3">
+        <p id="hidden3">{{data[2]}}</p>
+        <canvas id="myChart3" style="border:1px solid"></canvas>
+    </div>    
+</body>
+</html>
